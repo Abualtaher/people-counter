@@ -1,9 +1,8 @@
-let count = 50;
+// intialize the count as 0
+// listen for clicks on the increment button
+// increment the count variable when the button is clicked
+// change the count-el in the HTML to reflect the new count
 
-count = 100;
+let count = 0;
 
-count = count - 75;
-
-count = count + 45;
-
-console.log(count);
+function increment() {}
