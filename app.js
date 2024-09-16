@@ -4,5 +4,9 @@
 // change the count-el in the HTML to reflect the new count
 
 let count = 0;
+const display = document.querySelector("#count-el");
 
-function increment() {}
+function increment() {
+  count = count + 1;
+  display.innerText = count;
+}
