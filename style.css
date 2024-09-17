@@ -8,10 +8,11 @@ body {
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.485), rgba(0, 0, 0, 0.398)),
     url(img/railway-station-3714297_1280.jpg);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   font-size: 2rem;
+  height: 100vh;
 }
 
 .wrapper {
