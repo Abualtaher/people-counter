@@ -5,6 +5,7 @@
 
 let count = 0;
 const display = document.querySelector("#count-el");
+const saveButoon = document.querySelector("#save-el");
 
 function increment() {
   count += 1;
@@ -12,5 +13,6 @@ function increment() {
 }
 
 function save() {
-  console.log(count);
+  let des = count + " - ";
+  saveButoon.innerText += des;
 }
