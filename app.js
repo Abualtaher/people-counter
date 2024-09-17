@@ -9,10 +9,12 @@ const saveButoon = document.querySelector("#save-el");
 
 function increment() {
   count += 1;
-  display.innerText = count;
+  display.textContent = count;
 }
 
 function save() {
   let countStr = count + " - ";
   saveButoon.textContent += countStr;
+  display.textContent = 0;
+  count = 0;
 }
