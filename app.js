@@ -13,6 +13,6 @@ function increment() {
 }
 
 function save() {
-  let des = count + " - ";
-  saveButoon.innerText += des;
+  let countStr = count + " - ";
+  saveButoon.textContent += countStr;
 }
