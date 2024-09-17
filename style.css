@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  background-image: url(img/railway-station-3714297_1280.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 2rem;
+}
+
+.wrapper {
+  /* width: 80%;
+  margin: 0 auto; */
+  text-align: center;
+  align-items: center;
+
+  color: white;
+}
+
+.wrapper h1,
+h2 {
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
