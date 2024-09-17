@@ -6,7 +6,8 @@
 body {
   width: 80%;
   margin: 0 auto;
-  background-image: url(img/railway-station-3714297_1280.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.485), rgba(0, 0, 0, 0.398)),
+    url(img/railway-station-3714297_1280.jpg);
   background-repeat: repeat;
   background-position: center;
   background-size: cover;
@@ -19,7 +20,7 @@ body {
   text-align: center;
   align-items: center;
 
-  color: white;
+  color: rgb(242, 242, 241);
 }
 
 .wrapper h1,
