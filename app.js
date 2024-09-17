@@ -7,7 +7,7 @@ let count = 0;
 const display = document.querySelector("#count-el");
 
 function increment() {
-  count = count + 1;
+  count += 1;
   display.innerText = count;
 }
 
