@@ -29,3 +29,10 @@ h2 {
   margin-bottom: 40px;
   margin-top: 50px;
 }
+
+button {
+  width: 150px;
+  border-radius: 5px;
+  background-color: antiquewhite;
+  padding: 3px;
+}
